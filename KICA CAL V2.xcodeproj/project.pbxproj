@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EADEF8E3E67868B52ECA162 /* Pods_KICA_CAL_V2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A742A75C831F44895FC42091 /* Pods_KICA_CAL_V2Tests.framework */; };
+		753C3104392B25C42CE34AAD /* Pods_KICA_CAL_V2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272CA2A60D3F455342A995C3 /* Pods_KICA_CAL_V2.framework */; };
+		88253724069FFA85F907741F /* Pods_KICA_CAL_V2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE1C7B39A096B931AEDD9E8 /* Pods_KICA_CAL_V2UITests.framework */; };
 		93A8256E221FCB910068E2B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A8256D221FCB910068E2B7 /* AppDelegate.swift */; };
 		93A82570221FCB910068E2B7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A8256F221FCB910068E2B7 /* FirstViewController.swift */; };
 		93A82572221FCB910068E2B7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A82571221FCB910068E2B7 /* SecondViewController.swift */; };
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		098D30C68FB14630C47E6F74 /* Pods-KICA CAL V2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KICA CAL V2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KICA CAL V2UITests/Pods-KICA CAL V2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		272CA2A60D3F455342A995C3 /* Pods_KICA_CAL_V2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KICA_CAL_V2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E2181D8A2CFFE3A921ACA66 /* Pods-KICA CAL V2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KICA CAL V2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KICA CAL V2Tests/Pods-KICA CAL V2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6FE1C7B39A096B931AEDD9E8 /* Pods_KICA_CAL_V2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KICA_CAL_V2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A8256A221FCB910068E2B7 /* KICA CAL V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KICA CAL V2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A8256D221FCB910068E2B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93A8256F221FCB910068E2B7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		93A8258B221FCB950068E2B7 /* KICA CAL V2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KICA CAL V2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A8258F221FCB950068E2B7 /* KICA_CAL_V2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KICA_CAL_V2UITests.swift; sourceTree = "<group>"; };
 		93A82591221FCB950068E2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A742A75C831F44895FC42091 /* Pods_KICA_CAL_V2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KICA_CAL_V2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78610A0139E30AD405C4EEA /* Pods-KICA CAL V2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KICA CAL V2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KICA CAL V2UITests/Pods-KICA CAL V2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		C07A655AA0A2ADEBB4EE64D6 /* Pods-KICA CAL V2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KICA CAL V2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KICA CAL V2/Pods-KICA CAL V2.debug.xcconfig"; sourceTree = "<group>"; };
+		D1A7481C4F7B74BF462D3595 /* Pods-KICA CAL V2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KICA CAL V2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KICA CAL V2Tests/Pods-KICA CAL V2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D511E3B91C30E71B444AE5A9 /* Pods-KICA CAL V2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KICA CAL V2.release.xcconfig"; path = "Pods/Target Support Files/Pods-KICA CAL V2/Pods-KICA CAL V2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753C3104392B25C42CE34AAD /* Pods_KICA_CAL_V2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EADEF8E3E67868B52ECA162 /* Pods_KICA_CAL_V2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88253724069FFA85F907741F /* Pods_KICA_CAL_V2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		482D115A5F37E81D3FC62357 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C07A655AA0A2ADEBB4EE64D6 /* Pods-KICA CAL V2.debug.xcconfig */,
+				D511E3B91C30E71B444AE5A9 /* Pods-KICA CAL V2.release.xcconfig */,
+				D1A7481C4F7B74BF462D3595 /* Pods-KICA CAL V2Tests.debug.xcconfig */,
+				4E2181D8A2CFFE3A921ACA66 /* Pods-KICA CAL V2Tests.release.xcconfig */,
+				098D30C68FB14630C47E6F74 /* Pods-KICA CAL V2UITests.debug.xcconfig */,
+				B78610A0139E30AD405C4EEA /* Pods-KICA CAL V2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		93A82561221FCB910068E2B7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				93A82583221FCB950068E2B7 /* KICA CAL V2Tests */,
 				93A8258E221FCB950068E2B7 /* KICA CAL V2UITests */,
 				93A8256B221FCB910068E2B7 /* Products */,
+				482D115A5F37E81D3FC62357 /* Pods */,
+				D727B4F78340879820748CCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = "KICA CAL V2UITests";
 			sourceTree = "<group>";
 		};
+		D727B4F78340879820748CCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				272CA2A60D3F455342A995C3 /* Pods_KICA_CAL_V2.framework */,
+				A742A75C831F44895FC42091 /* Pods_KICA_CAL_V2Tests.framework */,
+				6FE1C7B39A096B931AEDD9E8 /* Pods_KICA_CAL_V2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93A82594221FCB950068E2B7 /* Build configuration list for PBXNativeTarget "KICA CAL V2" */;
 			buildPhases = (
+				9A225DCFFC06A4E3105ABA7C /* [CP] Check Pods Manifest.lock */,
 				93A82566221FCB910068E2B7 /* Sources */,
 				93A82567221FCB910068E2B7 /* Frameworks */,
 				93A82568221FCB910068E2B7 /* Resources */,
@@ -152,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93A82597221FCB950068E2B7 /* Build configuration list for PBXNativeTarget "KICA CAL V2Tests" */;
 			buildPhases = (
+				0E5613F9E147BD8D4472E208 /* [CP] Check Pods Manifest.lock */,
 				93A8257C221FCB950068E2B7 /* Sources */,
 				93A8257D221FCB950068E2B7 /* Frameworks */,
 				93A8257E221FCB950068E2B7 /* Resources */,
@@ -170,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93A8259A221FCB950068E2B7 /* Build configuration list for PBXNativeTarget "KICA CAL V2UITests" */;
 			buildPhases = (
+				E69DEA78325927371458C75A /* [CP] Check Pods Manifest.lock */,
 				93A82587221FCB950068E2B7 /* Sources */,
 				93A82588221FCB950068E2B7 /* Frameworks */,
 				93A82589221FCB950068E2B7 /* Resources */,
@@ -253,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E5613F9E147BD8D4472E208 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KICA CAL V2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A225DCFFC06A4E3105ABA7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KICA CAL V2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E69DEA78325927371458C75A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KICA CAL V2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		93A82566221FCB910068E2B7 /* Sources */ = {
@@ -434,6 +546,7 @@
 		};
 		93A82595221FCB950068E2B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07A655AA0A2ADEBB4EE64D6 /* Pods-KICA CAL V2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +565,7 @@
 		};
 		93A82596221FCB950068E2B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D511E3B91C30E71B444AE5A9 /* Pods-KICA CAL V2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +584,7 @@
 		};
 		93A82598221FCB950068E2B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A7481C4F7B74BF462D3595 /* Pods-KICA CAL V2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +606,7 @@
 		};
 		93A82599221FCB950068E2B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2181D8A2CFFE3A921ACA66 /* Pods-KICA CAL V2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +628,7 @@
 		};
 		93A8259B221FCB950068E2B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098D30C68FB14630C47E6F74 /* Pods-KICA CAL V2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +649,7 @@
 		};
 		93A8259C221FCB950068E2B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78610A0139E30AD405C4EEA /* Pods-KICA CAL V2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
