@@ -12,3 +12,5 @@ Code n shit
 - possibly need error messages?
 - Might include NSUserDefaults for storing local data
 - -> maaayybbeee
+- **fix app icon**
+- Check all designs for consistancy
