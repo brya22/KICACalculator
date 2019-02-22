@@ -2,6 +2,7 @@ KICA Calculator V2 - The better one
 
 
 **V1 (Intial Recreation)**
+- **fix app icon**
 - Ads 
 - -> Create ad free option?
 - -> make sure they work
@@ -12,5 +13,4 @@ KICA Calculator V2 - The better one
 - possibly need error messages?
 - Might include NSUserDefaults for storing local data
 - -> maaayybbeee
-- **fix app icon**
 - Check all designs for consistancy
