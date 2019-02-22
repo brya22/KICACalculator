@@ -1,5 +1,5 @@
 KICA Calculator V2 - The better one
-Code n shit
+
 
 **V1 (Intial Recreation)**
 - Ads 
