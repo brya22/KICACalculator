@@ -9,7 +9,10 @@ KICA Calculator V2 - The better one
 - ~~-> how 2 calculate KICA~~
 - Double check all code
 - -> make sure efficent and fast
-- possibly need error messages?
+- Converted UIImage's into code instead of using autolayout (works well)
+- **create error messages**
+- -> tell user if weighting does not = 100%
+- -> error empty values
 - ~~Might include NSUserDefaults for storing local data~~
 - -> Used NSUserDefaults to move weight values from views
 - ~~Check all designs for consistancy~~ Pretty Solid styll
