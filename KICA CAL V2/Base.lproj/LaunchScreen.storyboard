@@ -18,17 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="&quot;" translatesAutoresizingMaskIntoConstraints="NO" id="xzV-sE-0FC">
-                                <rect key="frame" x="102" y="288" width="171" height="91"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calculator" translatesAutoresizingMaskIntoConstraints="NO" id="xzV-sE-0FC">
+                                <rect key="frame" x="106" y="228" width="163" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="xzV-sE-0FC" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="IrD-fx-Ffb"/>
-                            <constraint firstItem="xzV-sE-0FC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bBk-G9-1yE"/>
-                            <constraint firstItem="xzV-sE-0FC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="102" id="gIg-la-y2S"/>
-                            <constraint firstItem="xzV-sE-0FC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="268" id="uWI-jI-aGO"/>
-                        </constraints>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -38,6 +33,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="&quot;" width="282" height="144"/>
+        <image name="calculator" width="394" height="512"/>
     </resources>
 </document>
