@@ -1,9 +1,9 @@
 KICA Calculator V2 - The better one
 
 **V1.1 - pretty solid**
+- **Fix launch screen icon**
 - ~~**fix app icon**~~
 - Ads 
-- -> Create ad free option?
 - ~~-> make sure they work~~
 - ~~Need to add mark calculation~~ verify math (should be right)
 - ~~-> how 2 calculate KICA~~
@@ -18,6 +18,7 @@ KICA Calculator V2 - The better one
 
 Future Updates
 - tell user if weighting does not = 100%
+- Create ad free option
 ------------------------
 
 **V1 (Intial Recreation)**
