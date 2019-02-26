@@ -11,13 +11,13 @@ KICA Calculator V2 - The better one
 - -> make sure efficent and fast
 - Converted UIImage's into code instead of using autolayout (works well)
 - **create error messages**
-- -> tell user if weighting does not = 100%
-- -> error empty values
+- -> ~~error empty values~~
 - ~~Might include NSUserDefaults for storing local data~~
 - -> Used NSUserDefaults to move weight values from views
 - ~~Check all designs for consistancy~~ Pretty Solid styll
 
-
+Future Updates
+- tell user if weighting does not = 100%
 ------------------------
 
 **V1 (Intial Recreation)**
