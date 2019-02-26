@@ -19,6 +19,8 @@ KICA Calculator V2 - The better one
 Future Updates
 - tell user if weighting does not = 100%
 - Create ad free option
+- Maybe use CoreData to perm save values
+- **CLEAR NSUSERDEFAULTS ON EXIT**
 ------------------------
 
 **V1 (Intial Recreation)**
