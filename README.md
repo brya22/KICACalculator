@@ -1,6 +1,6 @@
 KICA Calculator V2 - The better one
 
-**V1.2 - Submitted to App store as V1 (IPhone app ONLY)
+**V1.2 - Submitted to App store as V1 (IPhone app ONLY)**
 
 - ~~Fix launch screen icon~~
 - ~~fix app icon~~
@@ -17,7 +17,7 @@ KICA Calculator V2 - The better one
 - ~~-> Used NSUserDefaults to move weight values from views~~
 - ~~Check all designs for consistancy Pretty Solid styll~~
 
-- **Future Updates
+- **Future Updates**
 - tell user if weighting does not = 100%
 - Create ad free option
 - ~~Maybe use CoreData to perm save values~~ <- unneeded
