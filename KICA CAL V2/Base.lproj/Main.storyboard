@@ -88,34 +88,6 @@
                                     <action selector="HitA2:" destination="9pv-A4-QxB" eventType="editingDidBegin" id="hdl-ky-kfy"/>
                                 </connections>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="outof" translatesAutoresizingMaskIntoConstraints="NO" id="XtJ-Xi-qet">
-                                <rect key="frame" x="138" y="113" width="93" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="outof" translatesAutoresizingMaskIntoConstraints="NO" id="Kfx-2F-eZs">
-                                <rect key="frame" x="138" y="375" width="93" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="outof" translatesAutoresizingMaskIntoConstraints="NO" id="hew-JM-7Vk">
-                                <rect key="frame" x="137" y="486" width="93" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="outof" translatesAutoresizingMaskIntoConstraints="NO" id="bq9-Gz-tFB">
-                                <rect key="frame" x="138" y="250" width="93" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thinking-inquiry" translatesAutoresizingMaskIntoConstraints="NO" id="uJ6-A1-bE1">
-                                <rect key="frame" x="26" y="175" width="323" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="communication" translatesAutoresizingMaskIntoConstraints="NO" id="sFB-bL-Gnn">
-                                <rect key="frame" x="47" y="311" width="281" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="application" translatesAutoresizingMaskIntoConstraints="NO" id="dmK-tX-4zf">
-                                <rect key="frame" x="67" y="426" width="241" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgy-F7-4zY">
                                 <rect key="frame" x="60" y="558" width="255" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -123,28 +95,9 @@
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="HitCalculate:" destination="9pv-A4-QxB" eventType="touchUpInside" id="jmw-i2-PCW"/>
-                                    <action selector="HitCalculateWithSender:" destination="9pv-A4-QxB" eventType="touchUpInside" id="fgY-lz-MUW"/>
+                                    <action selector="HitCalculateWithSender:" destination="9pv-A4-QxB" eventType="touchUpInside" id="mk0-GQ-IHD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AG6-ty-dsy">
-                                <rect key="frame" x="159" y="522" width="47" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Mark:">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="18" name=".SFNSText"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="knownledge" translatesAutoresizingMaskIntoConstraints="NO" id="VmY-Ry-xjt">
-                                <rect key="frame" x="102" y="47" width="170" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="tap here" textAlignment="center" minimumFontSize="17" background="TextBoxBackground" translatesAutoresizingMaskIntoConstraints="NO" id="ziG-xW-22l">
                                 <rect key="frame" x="244" y="111" width="97" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -159,18 +112,6 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="lps-K8-19c"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="XtJ-Xi-qet"/>
-                                <exclude reference="Kfx-2F-eZs"/>
-                                <exclude reference="hew-JM-7Vk"/>
-                                <exclude reference="bq9-Gz-tFB"/>
-                                <exclude reference="uJ6-A1-bE1"/>
-                                <exclude reference="sFB-bL-Gnn"/>
-                                <exclude reference="dmK-tX-4zf"/>
-                                <exclude reference="VmY-Ry-xjt"/>
-                            </mask>
-                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Caclculator" image="calculator-tabview" id="acW-dT-cKf"/>
                     <connections>
@@ -183,7 +124,6 @@
                         <outlet property="calculate" destination="tgy-F7-4zY" id="Srx-vw-Sj0"/>
                         <outlet property="k1" destination="1J4-RH-SUL" id="aDm-3Q-E3g"/>
                         <outlet property="k2" destination="ziG-xW-22l" id="XwC-eL-Bsh"/>
-                        <outlet property="showmark" destination="AG6-ty-dsy" id="Nk5-SV-Hig"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
@@ -223,11 +163,11 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="DqS-Cr-kAz"/>
                                 </constraints>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="HitKnowledge:" destination="8rJ-Kc-sve" eventType="editingDidBegin" id="g3t-VH-JL1"/>
+                                    <action selector="hitKnowledge:" destination="8rJ-Kc-sve" eventType="touchDown" id="C0V-Ld-7An"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="tap here" textAlignment="center" minimumFontSize="17" background="TextBoxBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Ytj-R8-pp8">
@@ -235,11 +175,11 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="AhF-fP-Ruw"/>
                                 </constraints>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="HitThinkingInquiry:" destination="8rJ-Kc-sve" eventType="editingDidBegin" id="mD7-fP-Ttq"/>
+                                    <action selector="hitThinking:" destination="8rJ-Kc-sve" eventType="touchDown" id="ofy-ak-uxl"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="tap here" textAlignment="center" minimumFontSize="17" background="TextBoxBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Bsw-qn-K0H">
@@ -247,11 +187,11 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="RLh-rH-MP1"/>
                                 </constraints>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="HitCommunication:" destination="8rJ-Kc-sve" eventType="editingDidBegin" id="MWV-mx-3sv"/>
+                                    <action selector="hitCommunication:" destination="8rJ-Kc-sve" eventType="touchDown" id="dVZ-G1-i7r"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="tap here" textAlignment="center" minimumFontSize="17" background="TextBoxBackground" translatesAutoresizingMaskIntoConstraints="NO" id="SjL-O9-5FN">
@@ -259,11 +199,11 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="qyW-ML-1gp"/>
                                 </constraints>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="HitApplication:" destination="8rJ-Kc-sve" eventType="editingDidBegin" id="iMi-Wj-UoL"/>
+                                    <action selector="hitApplication:" destination="8rJ-Kc-sve" eventType="touchDown" id="Fin-I7-5R1"/>
                                 </connections>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="thinking-inquiry" translatesAutoresizingMaskIntoConstraints="NO" id="RyO-Hm-nMI">
@@ -322,7 +262,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eGy-a6-ScX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="weight" image="more" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="weight" image="weight" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="AW" destination="SjL-O9-5FN" id="MbY-PM-NZZ"/>
                         <outlet property="CW" destination="Bsw-qn-K0H" id="erg-IW-Ify"/>
@@ -342,6 +282,7 @@
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
@@ -357,11 +298,10 @@
         <image name="TextBoxBackground" width="1250" height="341"/>
         <image name="application" width="1563" height="259"/>
         <image name="calculate" width="716" height="168"/>
-        <image name="calculator-tabview" width="20" height="27"/>
+        <image name="calculator-tabview" width="30" height="30"/>
         <image name="communication" width="1806" height="179"/>
         <image name="knownledge" width="1382" height="201"/>
-        <image name="more" width="35" height="11"/>
-        <image name="outof" width="850" height="231"/>
         <image name="thinking-inquiry" width="1748" height="170"/>
+        <image name="weight" width="30" height="26"/>
     </resources>
 </document>

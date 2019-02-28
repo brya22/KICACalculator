@@ -17,11 +17,24 @@ class SecondViewController: UIViewController, GADBannerViewDelegate {
     @IBOutlet var AW: UITextField!
     
     var bannerView: GADBannerView!
+    
+    let userDefault = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        //assignbackground()
+        if (UserDefaults.standard.string(forKey: "KW") != nil){
+            KW.text! = UserDefaults.standard.string(forKey: "KW")!
+        }
+        if (UserDefaults.standard.string(forKey: "TIW") != nil){
+            TIW.text! = UserDefaults.standard.string(forKey: "TIW")!
+        }
+        if (UserDefaults.standard.string(forKey: "CW") != nil) {
+            CW.text! = UserDefaults.standard.string(forKey: "CW")!
+        }
+        if (UserDefaults.standard.string(forKey: "AW") != nil){
+            AW.text! = UserDefaults.standard.string(forKey: "AW")!
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -34,6 +47,7 @@ class SecondViewController: UIViewController, GADBannerViewDelegate {
         bannerView.load(request)
         addBannerViewToView(bannerView)
     }
+    
     
     func addBannerViewToView(_ bannerView: GADBannerView) {
         bannerView.translatesAutoresizingMaskIntoConstraints = false
@@ -56,13 +70,12 @@ class SecondViewController: UIViewController, GADBannerViewDelegate {
             ])
     }
     
-    
     func adViewDidReceiveAd(_ bannerView: GADBannerView) {
         print("Banner loaded successfully")
     }
     
-
-    @IBAction func HitKnowledge(_ sender: UITextField) {
+    
+    @IBAction func hitKnowledge(_ sender: UITextField) {
         let alert = UIAlertController(title: "Knowlege", message: "Enter weight", preferredStyle: .alert)
         alert.addTextField { (textField) in
             textField.text = ""
@@ -70,14 +83,16 @@ class SecondViewController: UIViewController, GADBannerViewDelegate {
         }
         alert.addAction(UIAlertAction(title: "Enter", style: .default, handler: { [weak alert] (_) in
             let textField = alert!.textFields![0] // Force unwrapping because we know it exists.
+            self.userDefault.set(textField.text!, forKey: "KW")
+            self.userDefault.set(Int(textField.text!), forKey: "KWI")
+            UserDefaults.standard.synchronize()
             self.KW.text! = textField.text!
-            UserDefaults.standard.set(Int(textField.text!), forKey: "KW")
         }))
         
         self.present(alert, animated: true, completion: nil)
     }
     
-    @IBAction func HitThinkingInquiry(_ sender: UITextField) {
+    @IBAction func hitThinking(_ sender: UITextField) {
         let alert = UIAlertController(title: "Thinking & Inquiry", message: "Enter weight", preferredStyle: .alert)
         alert.addTextField { (textField) in
             textField.text = ""
@@ -85,29 +100,32 @@ class SecondViewController: UIViewController, GADBannerViewDelegate {
         }
         alert.addAction(UIAlertAction(title: "Enter", style: .default, handler: { [weak alert] (_) in
             let textField = alert!.textFields![0] // Force unwrapping because we know it exists.
+            self.userDefault.set(textField.text!, forKey: "TIW")
+            self.userDefault.set(Int(textField.text!), forKey: "TIWI")
+            UserDefaults.standard.synchronize()
             self.TIW.text! = textField.text!
-            UserDefaults.standard.set(Int(textField.text!), forKey: "TIW")
         }))
-        
         self.present(alert, animated: true, completion: nil)
     }
     
-    @IBAction func HitCommunication(_ sender: UITextField) {
-        let alert = UIAlertController(title: "Communication", message: "Enter weight", preferredStyle: .alert)
+    @IBAction func hitCommunication(_ sender: UITextField) {
+        let alert = UIAlertController(title: "Knowlege", message: "Enter weight", preferredStyle: .alert)
         alert.addTextField { (textField) in
             textField.text = ""
             textField.keyboardType = UIKeyboardType.numberPad
         }
         alert.addAction(UIAlertAction(title: "Enter", style: .default, handler: { [weak alert] (_) in
             let textField = alert!.textFields![0] // Force unwrapping because we know it exists.
-            self.CW.text! = textField.text!
-            UserDefaults.standard.set(Int(textField.text!), forKey: "CW")
+            self.userDefault.set(textField.text!, forKey: "CW")
+            self.userDefault.set(Int(textField.text!), forKey: "CWI")
+            UserDefaults.standard.synchronize()
+           self.CW.text! = textField.text!
         }))
         
         self.present(alert, animated: true, completion: nil)
     }
     
-    @IBAction func HitApplication(_ sender: UITextField) {
+    @IBAction func hitApplication(_ sender: UITextField) {
         let alert = UIAlertController(title: "Application", message: "Enter weight", preferredStyle: .alert)
         alert.addTextField { (textField) in
             textField.text = ""
@@ -115,29 +133,13 @@ class SecondViewController: UIViewController, GADBannerViewDelegate {
         }
         alert.addAction(UIAlertAction(title: "Enter", style: .default, handler: { [weak alert] (_) in
             let textField = alert!.textFields![0] // Force unwrapping because we know it exists.
+            self.userDefault.set(textField.text!, forKey: "AW")
+            self.userDefault.set(Int(textField.text!), forKey: "AWI")
+            UserDefaults.standard.synchronize()
             self.AW.text! = textField.text!
-            UserDefaults.standard.set(Int(textField.text!), forKey: "AW")
         }))
-        
         self.present(alert, animated: true, completion: nil)
     }
     
-    
-    
-    func assignbackground(){
-        let background = UIImage(named: "background.png")
-        
-        var imageView : UIImageView!
-        imageView = UIImageView(frame: view.bounds)
-        imageView.contentMode =  UIView.ContentMode.scaleAspectFill
-        imageView.clipsToBounds = true
-        imageView.image = background
-        imageView.center = view.center
-        view.addSubview(imageView)
-        self.view.sendSubviewToBack(imageView)
-    }
-
-
-
 }
 
