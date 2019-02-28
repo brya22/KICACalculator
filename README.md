@@ -4,7 +4,7 @@ KICA Calculator V2 - The better one
 
 - ~~Fix launch screen icon~~
 - ~~fix app icon~~
-- ~~Ads
+- ~~Ads~~
 - -> ~~make sure they work~~
 - ~~Need to add mark calculation verify math (should be right)~~
 - ~~-> how 2 calculate KICA~~
